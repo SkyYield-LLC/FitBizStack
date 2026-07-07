@@ -28,10 +28,10 @@
   font-style: italic;
 }
 .fb-wordmark .logo-word-1 { color: #FFFFFF; }
-.fb-wordmark .logo-word-2 { color: #4CAF50; }
+.fb-wordmark .logo-word-2 { color: var(--brandAccent); }
 
 .site-nav {
-  border-bottom: 2px solid #2E7D32;
+  border-bottom: 2px solid var(--brandAccent);
   background: rgba(13, 27, 15, 0.94);
 }
 .site-nav .nav-cta {
@@ -40,7 +40,7 @@
   font-family: 'Barlow Condensed', sans-serif;
   font-weight: 700;
   font-style: italic;
-  background: #4CAF50;
+  background: var(--brandAccent);
   color: #0D1B0F !important;
   border: none;
 }
@@ -65,7 +65,7 @@
 }
 
 .section-label {
-  color: #4CAF50;
+  color: var(--brandAccent);
   font-family: 'Barlow Condensed', sans-serif;
   font-weight: 700;
   font-size: 0.95rem;
